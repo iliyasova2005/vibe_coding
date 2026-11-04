@@ -102,7 +102,7 @@ async function main() {
     }
     case 3: {
         const height = Number(await rl.question('Высота лестницы: '))
-        if (distance<0 || total <0){
+        if (height<0){
         console.log('Некоррктные данные')
       } else {
         printSteps(height)
